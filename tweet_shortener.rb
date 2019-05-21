@@ -26,3 +26,6 @@ def word_substituter(tweet)
     tweets.each do |tweet|
       word_substituter(tweet)
       puts "#{tweet}"
+    end
+  end
+  
