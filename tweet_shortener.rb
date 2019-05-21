@@ -35,6 +35,7 @@ def word_substituter(tweet)
         word_substituter(tweet)
       elsif tweet.length < 130
         tweet
+      end
     
   end
   
