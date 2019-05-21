@@ -9,6 +9,7 @@ def word_substituter(tweet)
     '@' => ['at'],
     '&' => ['and']
   }
+    tweet.each do |tweet|
     tweets = tweet.split 
     dictionary.each do |k, v|
         tweets.each do |word|
@@ -17,7 +18,8 @@ def word_substituter(tweet)
           end 
         end
     end
-    tweets.join(' ')
+    puts tweets.join(' ')
+  end
   end
           
     
