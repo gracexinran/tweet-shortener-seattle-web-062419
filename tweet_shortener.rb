@@ -11,13 +11,11 @@ def word_substituter(tweet)
   }
     tweets = tweet.split 
     dictionary.each do |k, v|
-      v.each do |word|
-        tweets.each do |i|
-          if i == word 
-            i = k
+        tweets.each do |word|
+          if v.include?(word)
+            word = k
           end 
         end
-      end
     end
     tweets.join(' ')
   end
