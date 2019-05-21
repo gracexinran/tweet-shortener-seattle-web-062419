@@ -10,7 +10,7 @@ def word_substituter(tweet)
     '&' => ['and']
   }
     
-    tweets = tweet.split 
+    tweets = tweet.split(' ')
     dictionary.each do |k, v|
         tweets.each do |word|
           if v.include?(word)
