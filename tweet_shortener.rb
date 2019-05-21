@@ -3,7 +3,7 @@ def word_substituter(tweet)
   dictionary = {
     "hi" => ["hello"],
     '2' => ["to", 'two', 'too'],
-    '4' => ['for', 'four'],
+    '4' => ['for', 'four', 'For'],
     'b' => ['be'],
     'u' => ['you'],
     '@' => ['at'],
