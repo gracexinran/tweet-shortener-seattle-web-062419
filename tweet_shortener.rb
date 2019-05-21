@@ -31,4 +31,8 @@ def word_substituter(tweet)
   
   def selective_tweeet_shortener(tweets)
     tweets.each do |tweet|
-      if tweet.length 
+      if tweet.length > 140
+        word_substituter(tweet)
+      end
+    end
+  end
