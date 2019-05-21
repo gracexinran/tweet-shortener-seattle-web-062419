@@ -18,7 +18,7 @@ def word_substituter(tweet)
           end 
         end
     end
-    puts tweets.join(' ')
+    return tweets.join(' ')
 
   end
           
